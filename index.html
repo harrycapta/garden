@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>memex</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+</head>
+<body>
+  <script> let theme = new Theme(); theme.install(); theme.start(); </script>
+  <div class="loading-wave"><div></div><div></div><div></div><div></div><div></div></div>
+
+  <nav></nav>
+  <div class="container">
+    <main></main>
+  </div>
+
+  <!-- everything above here is for initial load (aka: display bg and pretty loading anim ASAP!) -->
+
+  <script src="js/seer.js"></script>
+  <script>
+    var seer = new Seer();
+    seer.install(false, 1);
+  </script>
+
+  <div class="error"></div>
+  <div class="lightbox"></div>
+  <div class="page-overlay" id="overlay"></div>
+  
+  <link rel="stylesheet" property="stylesheet" href="css/all.css">
+  <script src="js/imagesloaded.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/indental.js"></script>
+
+  <script src="data.ndtl"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/wrap.js"></script>
+  <script src="js/add.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script>
+    window.onerror = function(error, url, line) {
+      document.querySelector('.loading-wave').style.display = 'none';
+      document.querySelector('.error').style.display = 'inline-block';
+    };
+
+    let lightbox = new Lightbox;
+    lightbox.install(document.querySelector('.lightbox'), 'lightbox');
+
+    var main = new Main();
+    main.install();
+    main.start();
+  </script>
+
+</body></html>

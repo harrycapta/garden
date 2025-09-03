@@ -1,0 +1,8 @@
+{
+  "name": "Mujarrib Garden",
+  "short_name": "Garden",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

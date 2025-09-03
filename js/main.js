@@ -44,7 +44,8 @@ function Main()
   }
 
   this.start = async function()
-  {
+  { 
+    // verificare il fetch
     const res = await fetch('https://mujarrib.com/garden/data.json');
     if (!res.ok) { throw new Error('Fetch data.json failed: ' + res.status); }
     this.articles = await res.json();

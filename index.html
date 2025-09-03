@@ -1,6 +1,8 @@
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="utf-8">
   <title>Mujarrib Garden</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/theme.js"></script>
 </head>
@@ -25,7 +27,7 @@
   <div class="lightbox"></div>
   <div class="page-overlay" id="overlay"></div>
   
-  <link rel="stylesheet" property="stylesheet" href="css/all.css">
+  <link rel="stylesheet" property="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="js/imagesloaded.js"></script>
   <script src="js/masonry.js"></script>
   <script src="js/settings.js"></script>
@@ -48,6 +50,13 @@
     var main = new Main();
     main.install();
     main.start();
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
   </script>
 
 </body></html>

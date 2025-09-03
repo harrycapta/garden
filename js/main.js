@@ -43,9 +43,11 @@ function Main()
     seer.note('install main');
   }
 
-  this.start = function()
+  this.start = async function()
   {
-    this.articles = this.wrap.start(DATABASE);
+    const res = await fetch('data.json');
+    if (!res.ok) { throw new Error('Fetch data.json failed: ' + res.status); }
+    this.articles = await res.json();
     seer.note('process db');
 
     let stats = this.wrap.stats(this.articles);

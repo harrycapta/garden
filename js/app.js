@@ -1,18 +1,16 @@
 // js/app.js
-const DATA_URL = 'https://mujarrib.com/garden/data.ndtl';
+const DATA_URL = 'https://mujarrib.com/garden/data.json';
 
 async function loadNotes() {
   const res = await fetch(DATA_URL + '?v=' + Date.now(), { cache: 'no-store' });
-  if (!res.ok) throw new Error('Fetch data.ndtl failed: ' + res.status);
-  const text = await res.text();
-  // Usa il parser Indental che già avevi (esporta una funzione parseIndental)
-  const items = parseIndental(text); // -> array di oggetti {TITLE, TYPE, TAGS, DATE, QOTE, LINK, ...}
+  if (!res.ok) throw new Error('Fetch data.json failed: ' + res.status);
+  const data = await res.json();
 
-  // Normalizzazione minima per il renderer esistente
-  return items.map(it => ({
-    title: it.TITLE || '(senza titolo)',
-    type:  it.TYPE  || 'nota',
-    tags:  (it.TAGS || '').split(',').map(s => s.trim()).filter(Boolean),
+  // Converti l'oggetto in un array normale per il renderer esistente
+  return Object.entries(data).map(([title, it]) => ({
+    title: title || '(senza titolo)',
+    type: Array.isArray(it.TYPE) ? it.TYPE[0] : (it.TYPE || 'nota'),
+    tags:  Array.isArray(it.TAGS) ? it.TAGS : [],
     date:  it.DATE  || '',
     body:  it.QOTE || it.BODY || '',
     link:  it.LINK || ''

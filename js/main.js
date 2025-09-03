@@ -45,7 +45,7 @@ function Main()
 
   this.start = async function()
   {
-    const res = await fetch('data.json');
+    const res = await fetch('https://mujarrib.com/garden/data.json');
     if (!res.ok) { throw new Error('Fetch data.json failed: ' + res.status); }
     this.articles = await res.json();
     seer.note('process db');

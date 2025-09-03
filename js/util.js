@@ -16,6 +16,8 @@ function Util()
         case 'article': icon = 'far fa-newspaper'; break;
         case 'podcast': icon = 'fas fa-podcast'; break;
         case 'video': icon = 'fas fa-tv'; break;
+        case 'rant': icon = 'fas fa-face-grin-squint'; break;
+        case 'dictionary': icon = 'fas fa-book-bookmark'; break;
         case 'list': icon = 'fas fa-file-alt'; break;
         case 'book': icon = 'fas fa-book-open'; break;
         case 'game': icon = 'fas fa-gamepad'; break;

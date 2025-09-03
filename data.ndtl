@@ -1,9 +1,32 @@
 var DATABASE = `
-SCOIATTOLI
+星空
   TYPE : quote
   TAGS : philosophy
-  DATE : 12025-09-03
-  QOTE : Le aquile possono librarsi in alto, ma i furetti non verranno mai risucchiati nei motori degli aerei.
+  DATE : 12018-07-26
+  QOTE : 总得有更多人仰望星空。
   DONE : true
+
+Four rules for success
+  LINK : https://esomogyi.com/bio/
+  TAGS : humor, philosophy
+  QOTE
+    I find that there are four rules for professional success that, coincidentally, are the same as the four rules for domestic success, no matter where you are or what you do.  First, try to find the humor and the good in everything you do.  Second, be prepared to work hard at it, at least some of the time.  Third, never reveal everything you know.
+  DATE : 12024-10-25
+  TYPE : quote
+
+Yokohama Kaidashi Kikou
+  LINK : https://www.youtube.com/watch?v=vWhH-TxFgOA
+  TYPE : video
+  TAGS : anime
+  DATE : 12024-11-01
+  QOTE
+    > The lights that once shone so brightly with purpose, now shine for the sole purpose of shining.
+    > Though not many get to see this, isn't it good to have such unique flowers around?  
+
+Branta Games - video effect making objects that go away when paused
+    LINK : https://www.youtube.com/watch?v=Bg3RAI8uyVw
+    TYPE : video
+    DATE : 12024-12-04
+    NOTE : "A video can carry information even if none of its frames does." - @moebio
 `
 

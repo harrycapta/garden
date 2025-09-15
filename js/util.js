@@ -14,10 +14,14 @@ function Util()
     switch (type) 
     {
         case 'article': icon = 'far fa-newspaper'; break;
+        case 'rant': icon = 'far fa-fire'; break;
+        case 'dictionary': icon = 'far fa-book'; break;
+        case 'conspiracytheory': icon = 'far fa-lightbulb-o'; break;
+        case 'logicalfallacy': icon = 'fas fa-comments'; break;
+        case 'joke': icon = 'fas fa-snowflake-o'; break;
         case 'podcast': icon = 'fas fa-podcast'; break;
         case 'video': icon = 'fas fa-tv'; break;
         case 'rant': icon = 'fas fa-face-grin-squint'; break;
-        case 'dictionary': icon = 'fas fa-book-bookmark'; break;
         case 'list': icon = 'fas fa-file-alt'; break;
         case 'book': icon = 'fas fa-book-open'; break;
         case 'game': icon = 'fas fa-gamepad'; break;

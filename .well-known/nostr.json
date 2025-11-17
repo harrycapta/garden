@@ -3,6 +3,12 @@
     "perculato": "bbeb3ff9a97261e774c9e4785309c2690d2774a98384dfe786225f7de6dc20cd"
   },
   "relays": {
-    "bbeb3ff9a97261e774c9e4785309c2690d2774a98384dfe786225f7de6dc20cd": []
+    "bbeb3ff9a97261e774c9e4785309c2690d2774a98384dfe786225f7de6dc20cd": [
+            "wss://nos.lol",
+            "wss://nostr.wine",
+            "wss://relay.nostr.nu",
+            "wss://relay.damus.io"
+        ]
   }
 }
+

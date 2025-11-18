@@ -135,5 +135,22 @@
     "QOTE": "HyperCard combines a flat-file database with a graphical, flexible, user-modifiable interface.[3] HyperCard includes a built-in programming language called HyperTalk for manipulating data and the user interface.This combination of features – a database with simple form layout, flexible support for graphics, and ease of programming – suits HyperCard for many different projects such as rapid application development of applications and databases, interactive applications with no database requirements, command and control systems, and many examples in the demoscene.",
     "POSTED_TO_NOSTR": true,
     "NOSTR_EVENT_ID": "ce7a45231028d54310bb68472f95a4ca3aa925f2766a7b11d77361c5564ea1cc"
+  },
+  "A Native Linux Games Collection. Only Native, no Wine/Proton and other.": {
+    "TYPE": [
+      "game"
+    ],
+    "TAGS": [
+      "linux",
+      "games"
+    ],
+    "DATE": "12025-11-18",
+    "DONE": true,
+    "DIID": 9,
+    "NOSTR_KIND": 1,
+    "LINK": "https://archive.org/details/native-linux-games-collection",
+    "QOTE": " We add to the collection only those video games that we were able to launch. That is why it does not contain such well-known video games as BioShock Infinite, Metro Exodus and some others.",
+    "POSTED_TO_NOSTR": true,
+    "NOSTR_EVENT_ID": "c184828f1feca31ba8dbe4f9bc32764365a617b50bf737c4953d8bf315dfc574"
   }
 }

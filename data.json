@@ -1,16 +1,24 @@
 {
   "星空": {
-    "TYPE": ["quote"],
-    "TAGS": ["philosophy"],
+    "TYPE": [
+      "quote"
+    ],
+    "TAGS": [
+      "philosophy"
+    ],
     "DATE": "12018-07-26",
     "QOTE": "总得有更多人仰望星空。",
     "DONE": true,
     "DIID": 0
   },
   "SCHOOLS MAKE KIDS CRAZY": {
-    "TYPE": ["article"],
+    "TYPE": [
+      "article"
+    ],
     "LINK": "https://www.zerohedge.com/markets/schools-make-kids-crazy",
-    "TAGS": ["education"],
+    "TAGS": [
+      "education"
+    ],
     "DATE": "12025-09-03",
     "QOTE": [
       "> Almost one-third of government schools nationwide are now surveilling the mental health of students.",
@@ -21,32 +29,45 @@
   },
   "FOUR RULES FOR SUCCESS": {
     "LINK": "https://esomogyi.com/bio/",
-    "TAGS": ["humor", "philosophy"],
+    "TAGS": [
+      "humor",
+      "philosophy"
+    ],
     "QOTE": [
       "I find that there are four rules for professional success that, coincidentally, are the same as the four rules for domestic success, no matter where you are or what you do.  First, try to find the humor and the good in everything you do.  Second, be prepared to work hard at it, at least some of the time.  Third, never reveal everything you know."
     ],
     "DATE": "12024-10-25",
-    "TYPE": ["quote"],
+    "TYPE": [
+      "quote"
+    ],
     "DONE": true,
     "DIID": 2
   },
   "PITCAIRN ISLAND": {
     "LINK": "https://maps.app.goo.gl/4Wy51BmyhvijU5U37",
-    "TAGS": ["maps"],
+    "TAGS": [
+      "maps"
+    ],
     "QOTE": [
       "> The Pitcairn Islanders are descended primarily from nine British HMS Bounty mutineers and twelve Tahitian women.",
       "> In 2023, the territory had a permanent population of 35, making it the smallest territory in the world by number of permanent residents.",
       "> Owing to the island's extreme isolation and small population, incidents of widespread sexual abuse went undetected until 1999, culminating in a high-profile sexual assault trial in 2004."
     ],
     "DATE": "12025-09-03",
-    "TYPE": ["article"],
+    "TYPE": [
+      "article"
+    ],
     "DONE": true,
     "DIID": 3
   },
   "YOKOHAMA KAIDASHI KIKOU": {
     "LINK": "https://www.youtube.com/watch?v=vWhH-TxFgOA",
-    "TYPE": ["video"],
-    "TAGS": ["anime"],
+    "TYPE": [
+      "video"
+    ],
+    "TAGS": [
+      "anime"
+    ],
     "DATE": "12024-11-01",
     "QOTE": [
       "> The lights that once shone so brightly with purpose, now shine for the sole purpose of shining.",
@@ -57,10 +78,28 @@
   },
   "BRANTA GAMES - VIDEO EFFECT MAKING OBJECTS THAT GO AWAY WHEN PAUSED": {
     "LINK": "https://www.youtube.com/watch?v=Bg3RAI8uyVw",
-    "TYPE": ["video"],
+    "TYPE": [
+      "video"
+    ],
     "DATE": "12024-12-04",
     "QOTE": "\"A video can carry information even if none of its frames does.\" - @moebio",
     "DONE": false,
     "DIID": 5
+  },
+  "Strictly speaking, one immortal monkey would be sufficient.": {
+    "TYPE": [
+      "quote"
+    ],
+    "TAGS": [
+      "rant"
+    ],
+    "DATE": "12025-11-18",
+    "DONE": true,
+    "DIID": 6,
+    "NOSTR_KIND": 1,
+    "LINK": "https://wiki.xxiivv.com/site/computation.html",
+    "QOTE": "The key in making great and growable systems is much more to design how its modules communicate rather than what their internal properties and behaviors should be",
+    "POSTED_TO_NOSTR": true,
+    "NOSTR_EVENT_ID": "fc39bea4f03f5fdf8773ee9d89f6e10cad023cacca5a36b0ffa323e28b71010a"
   }
 }

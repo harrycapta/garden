@@ -152,5 +152,24 @@
     "QOTE": " We add to the collection only those video games that we were able to launch. That is why it does not contain such well-known video games as BioShock Infinite, Metro Exodus and some others.",
     "POSTED_TO_NOSTR": true,
     "NOSTR_EVENT_ID": "c184828f1feca31ba8dbe4f9bc32764365a617b50bf737c4953d8bf315dfc574"
+  },
+  "FaceFusion | Manipulate faces in photos and videos entirely on your machine. Maintain control over your personal data with local processing.": {
+    "TYPE": [
+      "quote"
+    ],
+    "TAGS": [
+      "deepfake",
+      "ai",
+      "face manipulation"
+    ],
+    "DATE": "12025-11-18",
+    "DONE": true,
+    "DIID": 10,
+    "NOSTR_KIND": 1,
+    "LINK": "https://facefusion.io/",
+    "MEDIA_URL": "https://www.facefusion.co/_next/static/media/faceswap.153842a5.png",
+    "QOTE": "Deepfakes rely on a type of neural network called an autoencoder. These consist of an encoder, which reduces an image to a lower dimensional latent space, and a decoder, which reconstructs the image from the latent representation. Deepfakes utilize this architecture by having a universal encoder which encodes a person in to the latent space. The latent representation contains key features about their facial features and body posture. This can then be decoded with a model trained specifically for the target. This means the target's detailed information will be superimposed on the underlying facial and body features of the original video, represented in the latent space.",
+    "POSTED_TO_NOSTR": true,
+    "NOSTR_EVENT_ID": "b6b8bf55e56b42bbac20ffd12b8df8063c60802fce9f9d121127da8cbe0af9c7"
   }
 }

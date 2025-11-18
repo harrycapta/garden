@@ -101,5 +101,21 @@
     "QOTE": "The key in making great and growable systems is much more to design how its modules communicate rather than what their internal properties and behaviors should be",
     "POSTED_TO_NOSTR": true,
     "NOSTR_EVENT_ID": "fc39bea4f03f5fdf8773ee9d89f6e10cad023cacca5a36b0ffa323e28b71010a"
+  },
+  "Bookwyrm": {
+    "TYPE": [
+      "social media"
+    ],
+    "TAGS": [
+      "books"
+    ],
+    "DATE": "12025-11-18",
+    "DONE": true,
+    "DIID": 7,
+    "NOSTR_KIND": 1,
+    "LINK": "https://joinbookwyrm.com/",
+    "QOTE": "Bookwyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma. ",
+    "POSTED_TO_NOSTR": true,
+    "NOSTR_EVENT_ID": "de27e4aedb25ff6085529d124ac8e19c28ba58a39e69ecfe90fd968350dc63ea"
   }
 }

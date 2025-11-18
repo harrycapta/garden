@@ -117,5 +117,23 @@
     "QOTE": "Bookwyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Federation allows BookWyrm users to join small, trusted communities that can connect with one another, and with other ActivityPub services like Mastodon and Pleroma. ",
     "POSTED_TO_NOSTR": true,
     "NOSTR_EVENT_ID": "de27e4aedb25ff6085529d124ac8e19c28ba58a39e69ecfe90fd968350dc63ea"
+  },
+  "HyperCard is a software application and development kit for Apple Macintosh and Apple IIGS computers": {
+    "TYPE": [
+      "article"
+    ],
+    "TAGS": [
+      "apple",
+      "programming",
+      "pascal"
+    ],
+    "DATE": "12025-11-18",
+    "DONE": true,
+    "DIID": 8,
+    "NOSTR_KIND": 1,
+    "LINK": "https://en.wikipedia.org/wiki/HyperCard",
+    "QOTE": "HyperCard combines a flat-file database with a graphical, flexible, user-modifiable interface.[3] HyperCard includes a built-in programming language called HyperTalk for manipulating data and the user interface.This combination of features – a database with simple form layout, flexible support for graphics, and ease of programming – suits HyperCard for many different projects such as rapid application development of applications and databases, interactive applications with no database requirements, command and control systems, and many examples in the demoscene.",
+    "POSTED_TO_NOSTR": true,
+    "NOSTR_EVENT_ID": "ce7a45231028d54310bb68472f95a4ca3aa925f2766a7b11d77361c5564ea1cc"
   }
 }
